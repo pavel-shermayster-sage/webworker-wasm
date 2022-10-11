@@ -1,1 +1,5 @@
 node_modules
+feb-rust/target
+feb-rust/pkg
+.idea
+.vscode

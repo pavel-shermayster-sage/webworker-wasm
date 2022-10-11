@@ -10,6 +10,7 @@
     "asbuild:debug": "asc assembly/index.ts --target debug",
     "asbuild:release": "asc assembly/index.ts --target release",
     "asbuild": "npm run asbuild:debug && npm run asbuild:release",
+    "rustbuild": "wasm-pack build feb-rust --target web --release",
     "test": "node tests",
     "start": "npx serve ."
   },
